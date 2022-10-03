@@ -1,0 +1,47 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Magno",
+      "dataNasc": "1900-05-02",
+      "professor": {
+        "id": 2,
+        "nome": "Professor"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Magno 2",
+      "professor": {
+        "id": 1,
+        "nome": "Professor"
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Magno 3",
+      "professor": {
+        "id": 1,
+        "nome": "Professor"
+      }
+    },
+    {
+      "nome": "Teste",
+      "professor": {
+        "id": 2,
+        "nome": "Professor 2"
+      },
+      "id": 5
+    }
+  ],
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Professor"
+    },
+    {
+      "id": 2,
+      "nome": "Professor 2"
+    }
+  ]
+}
